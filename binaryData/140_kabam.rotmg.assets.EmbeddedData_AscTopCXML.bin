@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Objects>
+	<Object type="0x2CF9" id="Crimson Temple Buff Controller">
+		<Class>Character</Class>
+		<Enemy/>
+		<Texture>
+			<File>mountainTempleObjects16x16</File>
+			<Index>0x149</Index>
+		</Texture>		
+		<MaxHitPoints>50000</MaxHitPoints>
+		<Defense>35</Defense>
+		<Size>160</Size>
+		<XpMult>0.0</XpMult>
+	</Object>
+	<Object type="0x2CF8" id="Crimson Temple Extra Loot Controller">
+		<Class>Character</Class>
+		<Enemy/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x466</Index>
+		</Texture>
+		<MaxHitPoints>50000</MaxHitPoints>
+		<Defense>35</Defense>
+		<Size>160</Size>
+		<XpMult>0.0</XpMult>
+	</Object>
+	<Object type="0x2CF7" id="Crimson Temple Buff Loot">
+		<Class>Character</Class>
+		<Enemy/>
+		<StasisImmune/>
+		<Texture>
+			<File>mountainTempleObjects16x16</File>
+			<Index>0x139</Index>
+		</Texture>	
+		<Animation prob="1" period="1.4">
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x139</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x13a</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x13b</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x13c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<MaxHitPoints>800000</MaxHitPoints>
+		<Defense>1000</Defense>
+		<XpMult>0.0</XpMult>
+	</Object>
+	<Object type="0x2CF6" id="Crimson Temple Buff Skull">
+		<Class>Character</Class>
+		<Enemy/>
+		<StasisImmune/>		
+		<Texture>
+			<File>mountainTempleObjects16x16</File>
+			<Index>0x129</Index>
+		</Texture>
+		<Animation prob="1" period="1.4">
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x129</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x12a</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x12b</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x12c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<MaxHitPoints>800000</MaxHitPoints>
+		<Defense>1000</Defense>
+		<XpMult>0.0</XpMult>
+	</Object>
+	<Object type="0x2CF5" id="Crimson Temple Buff Heart">
+		<Class>Character</Class>
+		<Enemy/>
+		<StasisImmune/>
+		<Texture>
+			<File>mountainTempleObjects16x16</File>
+			<Index>0x119</Index>
+		</Texture>		
+		<Animation prob="1" period="1.4">
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x119</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x11a</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x11b</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x11c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<MaxHitPoints>800000</MaxHitPoints>
+		<Defense>1000</Defense>
+		<XpMult>0.0</XpMult>
+	</Object>
+	<Object type="0x2CF4" id="Crimson Temple Buff Sword">
+		<Class>Character</Class>
+		<Enemy/>
+		<StasisImmune/>
+		<Texture>
+			<File>mountainTempleObjects16x16</File>
+			<Index>0x109</Index>
+		</Texture>
+		<Animation prob="1" period="1.4">
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x109</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x10a</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x10b</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.35">
+				<Texture>
+					<File>mountainTempleObjects16x16</File>
+					<Index>0x10c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<MaxHitPoints>800000</MaxHitPoints>
+		<Defense>1000</Defense>
+		<XpMult>0.0</XpMult>
+	</Object>
+
+	<Object type="0x2CE9" id="The Crimson Temple Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>The Crimson Temple</DungeonName>
+		<Texture>
+			<File>ascendedTop8x8</File>
+			<Index>0x0f</Index>
+		</Texture>
+		<DisplayId>The Crimson Temple Portal</DisplayId>
+	</Object>
+	<Object type="0x2CF2" id="Allseeing Horror">
+        <Enemy/>
+        <OryxAspect/>
+        <Boss/>
+		<AscendedBoss/>
+        <DisplayId>Allseeing Horror</DisplayId>
+        <Class>Character</Class>
+		<AnimatedTexture>
+			<File>raiding32x32Embed</File>
+			<Index>42</Index>
+		</AnimatedTexture>
+        <HitSound>monster/dragons_hit</HitSound>
+        <DeathSound>monster/beholder_death</DeathSound>
+        <Size>80</Size>
+        <MaxHitPoints>135000</MaxHitPoints>
+        <Defense>40</Defense>
+        <Quest/>
+        <ParalyzeImmune/>
+        <DazedImmune/>
+        <StunImmune/>
+        <StasisImmune/>
+        <Projectile id="0">
+            <ObjectId>allseeingbolt</ObjectId>
+            <Damage>90</Damage>
+            <Speed>120</Speed>
+            <LifetimeMS>6000</LifetimeMS>
+            <MultiHit/>
+            <ArmorPiercing/>
+        </Projectile>
+		<Projectile id="1">
+			<ObjectId>allseeingshield</ObjectId>
+			<Damage>140</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>800</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>allseeingdisk</ObjectId>
+			<Damage>125</Damage>
+			<Speed>90</Speed>
+			<MultiHit/>
+			<ConditionEffect duration="3">Blind</ConditionEffect>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+    </Object>
+	
+	<Object type="0x2CF1" id="CT WALL 6">
+		<Class>Wall</Class>
+		<Texture>
+			<File>ascendedTop8x8</File>
+			<Index>0x15</Index>
+		</Texture>
+		<Top>
+			<Texture>
+				<File>ascendedTop8x8</File>
+				<Index>0x20</Index>
+			</Texture>
+		</Top>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+	</Object>
+	<Object type="0x2CE5" id="CT WALL 5">
+		<Class>Wall</Class>
+		<Texture>
+			<File>ascendedTop8x8</File>
+			<Index>0x14</Index>
+		</Texture>
+		<Top>
+			<Texture>
+				<File>ascendedTop8x8</File>
+				<Index>0x20</Index>
+			</Texture>
+		</Top>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+	</Object>
+	<Object type="0x2CE4" id="CT WALL 4">
+		<Class>Wall</Class>
+		<Texture>
+			<File>ascendedTop8x8</File>
+			<Index>0x13</Index>
+		</Texture>
+		<Top>
+			<Texture>
+				<File>ascendedTop8x8</File>
+				<Index>0x20</Index>
+			</Texture>
+		</Top>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+	</Object>
+	<Object type="0x2CE6" id="CT WALL 3">
+		<Class>Wall</Class>
+		<Texture>
+			<File>ascendedTop8x8</File>
+			<Index>0x12</Index>
+		</Texture>
+		<Top>
+			<Texture>
+				<File>ascendedTop8x8</File>
+				<Index>0x20</Index>
+			</Texture>
+		</Top>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+	</Object>
+	<Object type="0x2CE8" id="CT WALL 2">
+		<Class>Wall</Class>
+		<Texture>
+			<File>ascendedTop8x8</File>
+			<Index>0x11</Index>
+		</Texture>
+		<Top>
+			<Texture>
+				<File>ascendedTop8x8</File>
+				<Index>0x20</Index>
+			</Texture>
+		</Top>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+	</Object>
+	<Object type="0x2CE7" id="CT WALL 1">
+		<Class>Wall</Class>
+		<Texture>
+			<File>ascendedTop8x8</File>
+			<Index>0x10</Index>
+		</Texture>
+		<Top>
+			<Texture>
+				<File>ascendedTop8x8</File>
+				<Index>0x20</Index>
+			</Texture>
+		</Top>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+	</Object>
+</Objects>

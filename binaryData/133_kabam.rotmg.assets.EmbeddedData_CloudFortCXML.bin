@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Objects>
+	<Object type="0x4FE1" id="Palace Storm Cloud">
+		<Enemy/>
+		<DisplayId>Cloud Assault</DisplayId>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiObjBig</File>
+			<Index>0x3a</Index>
+		</Texture>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/flaming_skulls_death</DeathSound>
+		<Size>115</Size>
+		<MaxHitPoints>15000</MaxHitPoints>
+		<NoMiniMap/>
+		<Flying/>
+		<Z>0.2</Z>
+		<Projectile id="0">
+			<ObjectId>Invisible</ObjectId>
+			<Size>0</Size>
+			<Speed>100</Speed>
+			<Damage>20</Damage>
+			<LifetimeMS>1000</LifetimeMS>
+			<ConditionEffect duration="2">Paralyzed</ConditionEffect>
+		</Projectile>
+	</Object>
+   
+</Objects>
